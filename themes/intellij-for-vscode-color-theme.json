@@ -1386,7 +1386,11 @@
 	  },
 	  {
 		"name": "ts primitive/builtin types",
-		"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
+		"scope": [
+			"constant.language.null.js",
+			"constant.language.null.ts",
+			"support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx"
+		],
 		"settings": {
 		  "foreground": "#749ded"
 		}
