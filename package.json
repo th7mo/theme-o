@@ -1,0 +1,22 @@
+{
+  "publisher": "th7mo",
+  "name": "intellij-for-vscode",
+  "displayName": "intellij-for-vscode",
+  "description": "A UI theme for VSCode based on the new dark theme of intellij",
+  "version": "1.0.3",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "intellij-for-vscode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/intellij-for-vscode-color-theme.json"
+      }
+    ]
+  }
+}
