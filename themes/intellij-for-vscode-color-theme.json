@@ -1200,12 +1200,13 @@
 		}
 	  },
 	  {
-		"name": "js/ts true false",
+		"name": "js/ts/json true false",
 		"scope": [
 			"constant.language.boolean.false.ts",
 			"constant.language.boolean.true.ts",
 			"constant.language.boolean.false.js",
-			"constant.language.boolean.true.ts"
+			"constant.language.boolean.true.ts",
+			"constant.language.json"
 		],
 		"settings": {
 		  "foreground": "#749ded"
