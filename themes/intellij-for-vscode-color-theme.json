@@ -226,10 +226,12 @@
 		}
 	  },
 	  {
-		"name": "java property",
+		"name": "ts/java property",
 		"scope": [
 			"variable.other.constant",
-			"variable.other.constant.property"
+			"variable.other.constant.property",
+			"variable.other.object.property.ts",
+			"variable.other.property.ts"
 		],
 		"settings": {
 			"foreground": "#72CFD6",
@@ -854,7 +856,7 @@
 	  },
 	  {
 		"name": "HTML custom <tag>",
-		"scope": "entity.name.tag.html meta.tag.custom.start.html text.html.derivative source.vue",
+		"scope": "support.class.component.vue",
 		"settings": {
 		  "foreground": "#26BDA4"
 		}
@@ -1158,7 +1160,11 @@
 	  },
 	  {
 		"name": "[VSCODE-CUSTOM] JSON Property Name",
-		"scope": "support.type.property-name.json",
+		"scope": [
+			"punctuation.support.type.property-name.end.json.comments",
+			"punctuation.support.type.property-name.begin.json.comments",
+			"support.type.property-name.json"
+		],
 		"settings": {
 		  "foreground": "#72CFD6"
 		}
@@ -1192,9 +1198,11 @@
 		}
 	  },
 	  {
-		"name": "ts true false",
+		"name": "js/ts true false",
 		"scope": [
 			"constant.language.boolean.false.ts",
+			"constant.language.boolean.true.ts",
+			"constant.language.boolean.false.js",
 			"constant.language.boolean.true.ts"
 		],
 		"settings": {
