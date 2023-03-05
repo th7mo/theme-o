@@ -1163,6 +1163,8 @@
 		"scope": [
 			"punctuation.support.type.property-name.end.json.comments",
 			"punctuation.support.type.property-name.begin.json.comments",
+			"punctuation.support.type.property-name.begin.json",
+			"punctuation.support.type.property-name.end.json",
 			"support.type.property-name.json"
 		],
 		"settings": {

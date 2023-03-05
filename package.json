@@ -3,7 +3,7 @@
   "name": "intellij-for-vscode",
   "displayName": "intellij-for-vscode",
   "description": "A UI theme for VSCode based on the new dark theme of intellij",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": "https://github.com/th7mo/intellij-for-vscode",
   "engines": {
     "vscode": "^1.76.0"
