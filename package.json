@@ -1,10 +1,14 @@
 {
   "publisher": "th7mo",
-  "name": "intellij-for-vscode",
-  "displayName": "intellij-for-vscode",
+  "name": "theme-o",
+  "displayName": "ThemeO",
   "description": "A UI theme for VSCode based on the new dark theme of intellij",
-  "version": "1.0.20",
-  "repository": "https://github.com/th7mo/intellij-for-vscode",
+  "version": "1.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/th7mo/intellij-for-vscode"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -14,9 +18,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "intellij-for-vscode",
+        "label": "ThemeO",
         "uiTheme": "vs-dark",
-        "path": "./themes/intellij-for-vscode-color-theme.json"
+        "path": "./themes/ThemeO-color-theme.json"
       }
     ]
   }
